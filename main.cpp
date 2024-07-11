@@ -133,6 +133,8 @@ int main()
     t.setSmooth(true);
     sprite.setTexture(t.getTexture());
     t.clear();
+    sBackground.setScale(static_cast<float>(W) / sBackground.getLocalBounds().width,
+        static_cast<float>(H) / sBackground.getLocalBounds().height);
     t.draw(sBackground);
 
     Text winnerText;
