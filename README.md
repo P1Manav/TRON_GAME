@@ -43,11 +43,11 @@ This Tron game is developed using the SFML library in C++. It is a two-player ga
 
 ---
 <p align="center">
+  <img src="Red WINS.png" alt="" width="800">
+</p>
+<p align="center">
+  <img src="Green WINS.png" alt="" width="800">
+</p>
+<p align="center">
   <img src="DRAW!.png" alt="" width="800">
-</p>
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
 </p>
