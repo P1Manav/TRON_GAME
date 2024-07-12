@@ -9,7 +9,7 @@ This Tron game is developed using the SFML library in C++. It is a two-player ga
 1. **Clone the Repository**:
    - Clone this repository to your local machine using the following command:
      ```bash
-     git clone https://github.com/P1Manav/Tron-Game.git
+     git clone https://github.com/P1Manav/TRON_GAME.git
      ```
 2. **Setup Visual Studio**:
    - Make sure you have Visual Studio installed. You can download it from [here](https://visualstudio.microsoft.com/downloads/).
