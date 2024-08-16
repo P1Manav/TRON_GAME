@@ -86,5 +86,3 @@ If you want to view, modify, or understand the code, follow these steps to set u
 </p>
 
 ---
-
-This version provides the option to simply play the game directly without needing to set up Visual Studio, while also including the steps for those interested in development.
