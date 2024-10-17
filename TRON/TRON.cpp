@@ -92,9 +92,9 @@ int main()
     window.setFramerateLimit(60);
 
     std::vector<char> backgroundBuffer, bikeBuffer, fontBuffer;
-    if (!loadFromFileToMemory("D:/Projects/TRON/background.jpg", backgroundBuffer) ||
-        !loadFromFileToMemory("D:/Projects/TRON/bike.png", bikeBuffer) ||
-        !loadFromFileToMemory("D:/Projects/TRON/Fonts/Roboto-Black.ttf", fontBuffer))
+    if (!loadFromFileToMemory("./background.jpg", backgroundBuffer) ||
+        !loadFromFileToMemory("./bike.png", bikeBuffer) ||
+        !loadFromFileToMemory("../Fonts/Roboto-Black.ttf", fontBuffer))
     {
         return -1;
     }
@@ -186,17 +186,17 @@ int main()
                 if (field[p1.x][p1.y] == 1 && field[p2.x][p2.y] == 1)
                 {
                     bothPlayersCollided = true;
-                    break; 
+                    break;
                 }
                 else if (field[p1.x][p1.y] == 1)
                 {
                     p1Lost = true;
-                    break;  
+                    break;
                 }
                 else if (field[p2.x][p2.y] == 1)
                 {
                     p2Lost = true;
-                    break;  
+                    break;
                 }
 
                 field[p1.x][p1.y] = 1;
